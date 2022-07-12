@@ -1,3 +1,9 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.twitter{
+  font-size:25px;
+}
+.twitter:hover{
+   background-color: #1da1f2;
+}
+
+
+.github{
+    font-size:25px
+}
+.github:hover{
+   background-color: #ffffff;
+   color:#000000;
+}
+
+
+.facebook{
+    font-size:25px
+}
+.facebook:hover{
+   background-color: #0000ee;
+}
+
+.linkedin{
+   font-size:25px;
+  color:#ffffff;
+
+  @media (max-width : 800px){
+    
+    background:#000000;
+  }
+}
+
+.linkedin:hover{
+   background-color: #0000ee;
+   
+}
+
+.nav-link{
+  
+  text-decoration: none;
+  color:#ffffff;
 }

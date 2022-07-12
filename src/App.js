@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef, useState, useEffect } from "react";
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import { Switch, Route } from "react-router-dom";
+import {TweenMax} from "gsap";
 
-function App() {
+import "./app.css";
+// import "locomotive-scroll/dist/locomotive-scroll.css"
+// import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+
+const App = () => {
+  const [click, setClick] = useState(false);
+  const app = useRef(null);
+
+  useEffect(() => {
+    TweenMax.to('.hero', 0, { css: { visibility: "visible" } });
+  },[]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="hero" ref={app}>
+      {" "}
+      <div>
+        <NavBar click={click} setClick={setClick} />
+        <Switch>
+          <Route path="/about">
+            <AboutMe />
+          </Route>
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </main>
   );
-}
+};
 
 export default App;
