@@ -3,19 +3,20 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import { Switch, Route } from "react-router-dom";
-import {TweenMax} from "gsap";
+import { TweenMax } from "gsap";
 
 import "./app.css";
 // import "locomotive-scroll/dist/locomotive-scroll.css"
 // import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import Cloud from "./cloudinary/Cloud";
 
 const App = () => {
   const [click, setClick] = useState(false);
   const app = useRef(null);
 
-  useEffect(() => {
-    TweenMax.to('.hero', 0, { css: { visibility: "visible" } });
-  },[]);
+  // useEffect(() => {
+  //   TweenMax.to(".hero", 0, { css: { visibility: "visible" } });
+  // }, []);
 
   return (
     <main className="hero" ref={app}>
@@ -28,6 +29,10 @@ const App = () => {
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+
+          <Route exact path="/cloud">
+            <Cloud />
           </Route>
         </Switch>
       </div>
