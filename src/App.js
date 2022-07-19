@@ -14,9 +14,9 @@ const App = () => {
   const [click, setClick] = useState(false);
   const app = useRef(null);
 
-  // useEffect(() => {
-  //   TweenMax.to(".hero", 0, { css: { visibility: "visible" } });
-  // }, []);
+  useEffect(() => {
+    TweenMax.to(".hero", 0, { css: { visibility: "visible" } });
+  }, []);
 
   return (
     <main className="hero" ref={app}>

@@ -25,7 +25,7 @@ const ProjectCard = ({ work: { name, description, image } }) => {
         },
       }
     );
-      return () => {};
+      // return () => {};
   }, []);
 
   useLayoutEffect(() => {
@@ -42,7 +42,7 @@ const ProjectCard = ({ work: { name, description, image } }) => {
         },
       }
     );
-      return () => {};
+      // return () => {};
   }, []);
 
   return (
