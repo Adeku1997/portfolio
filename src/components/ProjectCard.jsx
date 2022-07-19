@@ -1,4 +1,4 @@
-import React, { useRef, useLayoutEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import styled from "styled-components";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -11,7 +11,7 @@ const ProjectCard = ({ work: { name, description, image } }) => {
   const img = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = des.current;
     gsap.fromTo(
       el,
@@ -28,7 +28,7 @@ const ProjectCard = ({ work: { name, description, image } }) => {
       // return () => {};
   }, []);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const el = img.current;
     gsap.fromTo(
       el,
