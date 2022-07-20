@@ -5,7 +5,12 @@ import styled from "styled-components";
 const Gif = () => {
   return (
     <GifContainer>
-      <img src={GIF} alt='gif' width={300} height={300}  />
+      <img
+        src="https://res.cloudinary.com/motohbaba/image/upload/q_auto/v1658274150/s2cir7gd5whdd2jczgz8.gif"
+        alt="gif"
+        width={300}
+        height={300}
+      />
     </GifContainer>
   );
 };

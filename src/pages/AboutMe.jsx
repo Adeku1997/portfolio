@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {Image} from "cloudinary-react"
 
 const AboutMe = () => {
   return (
@@ -23,9 +24,12 @@ const AboutMe = () => {
           </Paragraph>
         </Description>
 
-        <Image>
-          <img src="/images/toh.jpg" alt="picture" />
-        </Image>
+        <ImageContainer>
+          <Image
+            cloudName="motohbaba"
+            publicId="https://res.cloudinary.com/motohbaba/image/upload/v1658272171/gfbo4r1irpruwoykeu7f.jpg"
+          />
+        </ImageContainer>
       </Myself>
 
       <SkillsContainer>
@@ -53,11 +57,10 @@ const AboutMe = () => {
           <EducationHeader>Education</EducationHeader>
 
           <EducationList>
-
             <EducationOne>
-               <h3>AltSchool Africa</h3>
-               <p>Backend Developer Student(Nodejs)</p>
-               <p></p>
+              <h3>AltSchool Africa</h3>
+              <p>Backend Developer Student(Nodejs)</p>
+              <p></p>
             </EducationOne>
             <EducationTwo>
               <h3>University of Ilorin</h3>
@@ -122,7 +125,7 @@ const Paragraph = styled.div`
   }
 `;
 
-const Image = styled.div`
+const ImageContainer = styled.div`
   width: 50%;
   height: 80%;
 
