@@ -6,7 +6,7 @@ const Gif = () => {
   return (
     <GifContainer>
       <img
-        src="https://res.cloudinary.com/motohbaba/image/upload/q_auto/v1658274150/s2cir7gd5whdd2jczgz8.gif"
+        src="https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658274150/s2cir7gd5whdd2jczgz8.gif"
         alt="gif"
         width={300}
         height={300}
