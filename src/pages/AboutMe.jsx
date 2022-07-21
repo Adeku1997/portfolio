@@ -27,7 +27,7 @@ const AboutMe = () => {
         <ImageContainer>
           <Image
             cloudName="motohbaba"
-            publicId="https://res.cloudinary.com/motohbaba/image/upload/v1658272171/gfbo4r1irpruwoykeu7f.jpg"
+            publicId="https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658272171/gfbo4r1irpruwoykeu7f.jpg"
           />
         </ImageContainer>
       </Myself>

@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Button from "./Button";
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import { keyframes } from "styled-components";
+
+import { Link } from 'react-scroll';
+
 
 const NavBar = ({ click, setClick }) => {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 800);
@@ -19,11 +22,24 @@ const NavBar = ({ click, setClick }) => {
   return (
     <>
       <Container>
-        <Logo>MO</Logo>
+        <NavLink className="link" to="/" onClick={() => setClick(false)}>
+          <Logo>MO</Logo>
+        </NavLink>
 
         <NavLinks>
           <Home>Home</Home>
-          <Projects>Projects</Projects>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={700}
+          >
+            {" "}
+            <Projects>Projects</Projects>
+          </Link>
+
           <AboutMe>AboutMe</AboutMe>
 
           <SayHi>SayHi!</SayHi>
@@ -40,9 +56,26 @@ const NavBar = ({ click, setClick }) => {
       {/* mobile menu */}
       <MobileMenu click={click}>
         <MobileLists>
-          <MobileItem>Projects</MobileItem>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={700}
+            onClick={()=>setClick(false)}
+          >
+            <MobileItem>Projects</MobileItem>
+          </Link>
+
           <MobileItem>
-            <Link to='/about' className="nav-link">About Me</Link>
+            <NavLink
+              to="/about"
+              className="nav-link"
+              onClick={() => setClick(false)}
+            >
+              About Me
+            </NavLink>
           </MobileItem>
           <MobileItem>Say Hi!</MobileItem>
           <MobileItem>View Resume</MobileItem>

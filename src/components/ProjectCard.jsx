@@ -6,7 +6,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 
-const ProjectCard = ({ work: { name, description, image } }) => {
+const ProjectCard = ({ work: { name, description, image,github,demo } }) => {
   const des = useRef(null);
   const img = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
@@ -59,11 +59,16 @@ const ProjectCard = ({ work: { name, description, image } }) => {
           <Links>
             <a>
               <FontAwesomeIcon icon={faEye} />
-              <span>Live</span>
+              <span>
+                <a className='demo' href={demo}>Live</a></span>
             </a>
             <a>
               <FontAwesomeIcon icon={faCodeBranch} />
-              <span>Code</span>
+              <span>
+                <a  className='visit-git' href={github}>
+                Code
+                </a>
+                </span>
             </a>
           </Links>
         </Description>
@@ -151,7 +156,7 @@ const Image = styled.div`
   width: 55%;
   // border: 1px solid #ffffff;
   height: 90vh;
-  box-shadow: 3px 3px 6px 5px #ccc;
+  box-shadow: 3px 1px 1px 1px #ccc;
 
   @media (max-width: 800px) {
     height: 0vh;

@@ -8,7 +8,7 @@ import { Work } from "../data";
 const Projects = () => {
   
   return (
-    <Container >
+    <Container id='projects'>
       {Work.map((item) => (
         <ProjectCard key={item.id} work={item}/>
       ))}
