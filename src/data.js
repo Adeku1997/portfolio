@@ -8,7 +8,7 @@ export const Work = [
     demo: "https://cryptowurld.vercel.app/",
     github: "https://github.com/Adeku1997/crypto_world",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500/f_auto/v1658367281/s4tvlaawoqtj7gmpt3hd.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658367281/s4tvlaawoqtj7gmpt3hd.jpg",
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ export const Work = [
     demo: "http://githubfinderadeku1997.netlify.app",
     github: "https://github.com/Adeku1997/github-finder-app-with-react",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/v1658361268/mzxbfcbihxuk60kr8cyd.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658361268/mzxbfcbihxuk60kr8cyd.jpg",
   },
   {
     id: 5,
