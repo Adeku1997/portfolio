@@ -27,7 +27,11 @@ const NavBar = ({ click, setClick }) => {
         </NavLink>
 
         <NavLinks>
-          <Home>Home</Home>
+          <NavLink to="/" className="nav-link">
+            {" "}
+            <Home>Home</Home>
+          </NavLink>
+
           <Link
             activeClass="active"
             to="projects"
@@ -40,9 +44,17 @@ const NavBar = ({ click, setClick }) => {
             <Projects>Projects</Projects>
           </Link>
 
-          <AboutMe>AboutMe</AboutMe>
+          <NavLink to="/about" className="nav-link">
+            <AboutMe>AboutMe</AboutMe>
+          </NavLink>
 
-          <SayHi>SayHi!</SayHi>
+          <a
+            href="mailto:aliadeku.aam@gmail.com"
+            target="blank"
+            className="nav-link"
+          >
+            <SayHi>SayHi!</SayHi>
+          </a>
         </NavLinks>
         {isDesktop && <Button text="View Resume" link="https://google.com" />}
 
@@ -63,9 +75,9 @@ const NavBar = ({ click, setClick }) => {
             smooth={true}
             offset={-70}
             duration={700}
-            onClick={()=>setClick(false)}
+            onClick={() => setClick(false)}
           >
-            <MobileItem>Projects</MobileItem>
+            <MobileItem>projects</MobileItem>
           </Link>
 
           <MobileItem>
@@ -77,7 +89,16 @@ const NavBar = ({ click, setClick }) => {
               About Me
             </NavLink>
           </MobileItem>
-          <MobileItem>Say Hi!</MobileItem>
+
+          <a
+            href="mailto:aliadeku.aam@gmail.com"
+            target="blank"
+            className="nav-link"
+          >
+            {" "}
+            <MobileItem>Say Hi!</MobileItem>
+          </a>
+
           <MobileItem>View Resume</MobileItem>
         </MobileLists>
       </MobileMenu>

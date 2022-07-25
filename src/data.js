@@ -20,7 +20,7 @@ export const Work = [
     demo: "https://cryptowurld.vercel.app/",
     github: "https://github.com/Adeku1997/crypto_world",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658360804/h2bfnfmcm2vfrfehg6vx.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658767906/jyinl3cstdiqwtchdi0m.jpg",
   },
   {
     id: 3,

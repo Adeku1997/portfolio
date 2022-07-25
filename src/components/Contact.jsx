@@ -34,7 +34,14 @@ const Contact = () => {
         to you
       </Content>
 
-      <Button text="Say Hi!"  />
+      <a
+        href="mailto:aliadeku.aam@gmail.com"
+        target="blank"
+        className="nav-link"
+      >
+        {" "}
+        <Button text="Say Hi!" />
+      </a>
     </Container>
   );
 };

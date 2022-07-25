@@ -168,7 +168,6 @@ const Image = styled.div`
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
   }
 
   @media (max-width: 800px) {
