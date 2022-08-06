@@ -8,11 +8,11 @@ export const Work = [
     demo: "https://cryptowurld.vercel.app/",
     github: "https://github.com/Adeku1997/crypto_world",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658367281/s4tvlaawoqtj7gmpt3hd.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659783908/v2yex2rxmkmhwc8zpuzf.jpg",
   },
   {
     id: 2,
-    name: "Cryptowurld",
+    name: "Cryptoworld",
     description:
       "A web app that gives latest news,information of the most popular crypto's",
     tags: ["react", "ant-design", "redux", "redux-thunk"],
@@ -20,7 +20,7 @@ export const Work = [
     demo: "https://cryptowurld.vercel.app/",
     github: "https://github.com/Adeku1997/crypto_world",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658767906/jyinl3cstdiqwtchdi0m.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659782971/gswdj70qwuce4y0yjjsn.png",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const Work = [
     demo: "https://google-search-clone-with-react.vercel.app",
     github: "https://github.com/Adeku1997/google-search-clone-with-react",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658360730/uugvfltdogjboo5av4kl.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784373/fmgxnp3yxic3yro3aqvd.png",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export const Work = [
     demo: "http://githubfinderadeku1997.netlify.app",
     github: "https://github.com/Adeku1997/github-finder-app-with-react",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658361268/mzxbfcbihxuk60kr8cyd.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784683/zmnjkschozvdgtwm6dfp.png",
   },
   {
     id: 5,
@@ -54,6 +54,6 @@ export const Work = [
     demo: "http://adekuali-portfolio.vercel.app",
     github: "https://https://github.com/Adeku1997/my_portfolio",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_500,f_auto/v1658359657/je89rjbep43mghq5smlt.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659786068/yc2akmemikeykae2bhoi.png",
   },
 ];

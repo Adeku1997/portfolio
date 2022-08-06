@@ -168,10 +168,11 @@ const Image = styled.div`
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+
   }
 
   @media (max-width: 800px) {
-    width: 98%;
+    width: 90%;
     height: 35vh;
   }
 `;
