@@ -5,7 +5,7 @@ export const Work = [
     description: "A front-end E-commerce app built with React,Redux and Sass.",
     tags: ["react", "ant-design", "redux", "redux-thunk"],
 
-    demo: "https://cryptowurld.vercel.app/",
+    demo: "",
     github: "https://github.com/Adeku1997/crypto_world",
     image:
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659783908/v2yex2rxmkmhwc8zpuzf.jpg",

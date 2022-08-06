@@ -19,6 +19,7 @@ const NavBar = ({ click, setClick }) => {
 
     return ()=> window.removeEventListener('resize',updateMedia)
   },[]);
+  
   return (
     <>
       <Container>
@@ -56,7 +57,11 @@ const NavBar = ({ click, setClick }) => {
             <SayHi>SayHi!</SayHi>
           </a>
         </NavLinks>
-        {isDesktop && <Button text="View Resume" link="https://google.com" />}
+        {isDesktop && (
+          <a href="https://docs.google.com/document/d/1z2dbkKyWQk9q_JjzYLlN1t5u7rxj6EWGgIcvH9b0DhA/">
+            <Button text="View Resume" link="" />
+          </a>
+        )}
 
         <Hamburger onClick={() => setClick(!click)}>
           <Menuone click={click}></Menuone>
@@ -98,8 +103,13 @@ const NavBar = ({ click, setClick }) => {
             {" "}
             <MobileItem>Say Hi!</MobileItem>
           </a>
-
-          <MobileItem>View Resume</MobileItem>
+          <a
+            href="https://docs.google.com/document/d/1z2dbkKyWQk9q_JjzYLlN1t5u7rxj6EWGgIcvH9b0DhA/"
+            target="blank"
+            className="nav-link"
+          >
+            <MobileItem>View Resume</MobileItem>
+          </a>
         </MobileLists>
       </MobileMenu>
     </>
