@@ -1,6 +1,16 @@
 export const Work = [
   {
     id: 1,
+    name: "Sports-Daily",
+    description: "A fullstack blog build with Html,Css,Javascript and laravel",
+    demo: "http://sports-daily.herokuapp.com/",
+    github: "https://github.com/Adeku5080/sports-daily",
+    image:
+      "https://res.cloudinary.com/motohbaba/image/upload/v1660778204/cwwy8e1vqmvl2d7rbfim.png",
+  },
+
+  {
+    id: 2,
     name: "ShopNow",
     description: "A front-end E-commerce app built with React,Redux and Sass.",
     tags: ["react", "ant-design", "redux", "redux-thunk"],
@@ -11,7 +21,7 @@ export const Work = [
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659783908/v2yex2rxmkmhwc8zpuzf.jpg",
   },
   {
-    id: 2,
+    id: 3,
     name: "Cryptoworld",
     description:
       "A web app that gives latest news,information of the most popular crypto's",
@@ -23,7 +33,7 @@ export const Work = [
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659782971/gswdj70qwuce4y0yjjsn.png",
   },
   {
-    id: 3,
+    id: 4,
     name: "google-search clone",
     description:
       "A clone of google search engine built with react,redux and tailwindCss",
@@ -35,7 +45,7 @@ export const Work = [
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784373/fmgxnp3yxic3yro3aqvd.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "github-finder",
     description: "An application that makes use of github user api.",
     tags: ["react", "context-api", "styled-component"],
@@ -46,7 +56,7 @@ export const Work = [
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784683/zmnjkschozvdgtwm6dfp.png",
   },
   {
-    id: 5,
+    id: 6,
     name: "portfolio-website",
     description: "first version of my portfolio website",
     tags: ["react", "styled-components", "framer-motion"],
