@@ -2,7 +2,7 @@ export const Work = [
   {
     id: 1,
     name: "Sports-Daily",
-    description: "A fullstack blog build with Html,Css,Javascript and laravel",
+    description: "A fullstack blog built with Html,Css,Javascript and laravel",
     demo: "http://sports-daily.herokuapp.com/",
     github: "https://github.com/Adeku5080/sports-daily",
     image:
