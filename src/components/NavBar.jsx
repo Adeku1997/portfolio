@@ -104,7 +104,7 @@ const NavBar = ({ click, setClick }) => {
             <MobileItem>Say Hi!</MobileItem>
           </a>
           <a
-            href="https://docs.google.com/document/d/1z2dbkKyWQk9q_JjzYLlN1t5u7rxj6EWGgIcvH9b0DhA/"
+            href="https://docs.google.com/document/d/177duPJmuqJZAA1qzdXqEaZQMzjb4tT7wLYznqs0iBZA/edit?usp=sharing"
             target="blank"
             className="nav-link"
           >
