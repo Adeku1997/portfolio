@@ -50,11 +50,11 @@ const NavBar = ({ click, setClick }) => {
           </NavLink>
 
           <a
-            href="mailto:aliadeku.aam@gmail.com"
+            href="https://dev.to/ali_adeku"
             target="blank"
             className="nav-link"
           >
-            <SayHi>SayHi!</SayHi>
+            <SayHi>Blog</SayHi>
           </a>
         </NavLinks>
         {isDesktop && (
