@@ -96,12 +96,12 @@ const NavBar = ({ click, setClick }) => {
           </MobileItem>
 
           <a
-            href="mailto:aliadeku.aam@gmail.com"
+            href="https://dev.to/ali_adeku"
             target="blank"
             className="nav-link"
           >
             {" "}
-            <MobileItem>Say Hi!</MobileItem>
+            <MobileItem>Blog</MobileItem>
           </a>
           <a
             href="https://docs.google.com/document/d/177duPJmuqJZAA1qzdXqEaZQMzjb4tT7wLYznqs0iBZA/edit?usp=sharing"
