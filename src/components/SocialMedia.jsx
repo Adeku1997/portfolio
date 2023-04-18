@@ -10,7 +10,7 @@ const SocialMedia = () => {
       <ContentContainer>
         <Header>FIND ME ELSEWHERE</Header>
         <Socials>
-          <a href="" target="_blank" className="github">
+          <a href="https://github.com/adeku5080" target="_blank" className="github">
             <Github width={27} height={27} />
           </a>
 
@@ -18,10 +18,10 @@ const SocialMedia = () => {
             <Facebook width={27} height={27} />
           </a>
 
-          <a href="" target="_blank" className="twitter">
+          <a href="https://twitter.com/mo_jallo" target="_blank" className="twitter">
             <Twitter width={27} height={27} />
           </a>
-          <a href="" target="_blank" className="linkedin">
+          <a href="https://www.linkedin.com/in/ali-adeku" target="_blank" className="linkedin">
             <Linkedin width={27} height={27}  fill="white" />
           </a>
         </Socials>
