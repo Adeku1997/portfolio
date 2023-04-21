@@ -11,14 +11,13 @@ export const Work = [
 
   {
     id: 2,
-    name: "ShopNow",
-    description: "A front-end E-commerce app built with React,Redux and Sass.",
-    tags: ["react", "ant-design", "redux", "redux-thunk"],
-
-    demo: "",
-    github: "https://github.com/Adeku1997/crypto_world",
+    name: "Restaurant chatbot",
+    description: "A Restaurant chatbot with Node js and React js.",
+    tags: ["Express", "react"],
+    demo: "https://ali-chatbot.onrender.com/",
+    github: "https://github.com/Adeku5080/chatbot_frontend",
     image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659783908/v2yex2rxmkmhwc8zpuzf.jpg",
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681942223/syle8gcv3jf2pb21hnzz.png",
   },
   {
     id: 3,
@@ -54,16 +53,5 @@ export const Work = [
     github: "https://github.com/Adeku1997/github-finder-app-with-react",
     image:
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784683/zmnjkschozvdgtwm6dfp.png",
-  },
-  {
-    id: 6,
-    name: "portfolio-website",
-    description: "first version of my portfolio website",
-    tags: ["react", "styled-components", "framer-motion"],
-
-    demo: "http://adekuali-portfolio.vercel.app",
-    github: "https://https://github.com/Adeku1997/my_portfolio",
-    image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659786068/yc2akmemikeykae2bhoi.png",
   },
 ];
