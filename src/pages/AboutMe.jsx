@@ -15,6 +15,7 @@ const AboutMe = () => {
             Lagos,Nigeria.
             <br />
             <br />
+            I Currently work as a frontend Engineer at Reown Africa.<br/><br/>
             well-organised person,problem solver and an independent thinker with
             high attention to detail.
             <br />
