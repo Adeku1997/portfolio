@@ -59,7 +59,7 @@ const ContentContainer = styled.div`
   font-size: 14px;
   color: #999999;
   font-weight: 400;
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
   margin-top: 3rem;
   width: 50%;
 

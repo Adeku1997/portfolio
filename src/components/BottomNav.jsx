@@ -82,7 +82,7 @@ const MenuItems = styled.ul`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1rem;
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
   font-size:18px;
 `;
 

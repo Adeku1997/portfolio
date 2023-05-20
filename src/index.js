@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import "@fontsource/league-mono-extended";
-import "@fontsource/encode-sans-sc";
-// import "@fontsource/sora";
+// import "@fontsource/league-mono-extended";
+// import "@fontsource/encode-sans-sc";
+// // import "@fontsource/sora";
+
+
 import "@fontsource/ubuntu-mono";
 import "@fontsource/open-sans";
 

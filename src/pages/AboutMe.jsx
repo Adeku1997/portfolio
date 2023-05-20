@@ -177,7 +177,7 @@ const Skills = styled.h2`
   font-weight: 700;
   line-height: 48px;
   //   font-family: "Ubuntu Mono", monospace;
-  font-family: "League Mono Extended", monospace;
+  // font-family: "League Mono Extended", monospace;
 
   @media(max-width : 800px){
     font-size:22px;
@@ -193,7 +193,7 @@ padding-bottom:1rem;
 
 const LanguagesHeader = styled.h3`
   color: #ffffff;
-  font-family: "Ubuntu Mono", monospac;
+  // font-family: "Ubuntu Mono", monospac;
   font-size:22px;
 
   @media(max-width : 800px){
@@ -218,7 +218,7 @@ const LanguageItem = styled.li`
   font-weight: 300;
   font-size: 18px;
   line-height:1.5
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
 
   @media(max-width : 800px){
     font-size:16px;
@@ -232,7 +232,7 @@ margin-top:2.5rem;
 const EducationHeader = styled.h3`
   color: #ffffff;
   //   font-family: "Ubuntu Mono", monospac;
-  font-family: "League Mono Extended", monospace;
+  // font-family: "League Mono Extended", monospace;
   font-size: 24px;
   padding-bottom: 1rem;
   border-bottom: 1px solid #ffffff;
@@ -255,7 +255,7 @@ const EducationOne = styled.div`
   }
 
   p {
-    font-family: "Ubuntu Mono", monospace;
+    // font-family: "Ubuntu Mono", monospace;
     font-size:16px;
   }
 `;
@@ -271,7 +271,7 @@ const EducationTwo = styled.div`
   }
 
   p {
-    font-family: "Ubuntu Mono", monospace;
+    // font-family: "Ubuntu Mono", monospace;
     font-size: 16px;
   }
 `;

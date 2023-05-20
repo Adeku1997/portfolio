@@ -96,7 +96,7 @@ const ProjectTitle = styled.div`
   font-size: 25px;
   line-height: 30px;
   font-weight: 400;
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -123,7 +123,7 @@ const Description = styled.div`
   width: 30%;
   // border:1px solid red;
   height: 30vh;
-  font-family: "Open Sans", sans-serif;
+  // font-family: "Open Sans", sans-serif;
   font-weight:600;
 
   @media (max-width: 800px) {

@@ -80,7 +80,7 @@ const FirstParagraph = styled.p`
   font-weight: 400;
   line-height: 60px;
   //   font-family: "League Mono Extended", monospace;
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
   margin-bottom: 1rem;
 
   @media (max-width: 800px) {
@@ -94,7 +94,7 @@ const SecondParagraph = styled.p`
   color: #ffffff;
   font-size: 50px;
   font-weight: 400;
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
   line-height: 60px;
   text-align: center;
 

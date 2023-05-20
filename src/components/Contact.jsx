@@ -66,7 +66,7 @@ const Content = styled.p`
   text-align: center;
   margin-bottom: 1.5rem;
 
-   font-family: "Ubuntu Mono", monospace;
+  //  font-family: "Ubuntu Mono", monospace;
 
   //  font-family: "Encode Sans SC", sans-serif;
 
@@ -83,7 +83,7 @@ const Content = styled.p`
 `;
 
 const Header = styled.h2`
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
   font-size: 3rem;
   color: #ffffff;
   margin-bottom: 1.7rem;

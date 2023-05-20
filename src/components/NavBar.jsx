@@ -132,7 +132,7 @@ const Container = styled.div`
 `;
 
 const Logo = styled.a`
-  font-family: "League Mono Extended", monospace;
+  // font-family: "League Mono Extended", monospace;
   font-size: 40px;
   font-weight: 400;
   color: #ffffff;
@@ -156,7 +156,7 @@ const NavLinks = styled.ul`
 
 const Home = styled.li`
   list-style: none;
-  font-family: "League Mono Extended", monospace;
+  // font-family: "League Mono Extended", monospace;
   line-height: 20px;
   font-size: 14px;
 
@@ -269,7 +269,7 @@ const MobileLists = styled.ul`
 
 const MobileItem = styled.li`
   padding: 25px 12px;
-  font-family: "Ubuntu Mono", monospace;
+  // font-family: "Ubuntu Mono", monospace;
   font-size: 16px;
 
 
