@@ -17,7 +17,7 @@ const Home = () => {
         <FirstParagraph>Hey There!</FirstParagraph>
 
         <SecondParagraph>
-          I'm Ali,a <span>fullstack Software Developer </span>based in Lagos,
+          I'm Ali,a <span>Software Engineer </span>based in Lagos,
           Nigeria.
         </SecondParagraph>
       </IntroContainer>

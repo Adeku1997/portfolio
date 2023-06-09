@@ -5,6 +5,7 @@ export const Work = [
     description: "A fullstack blog built with Html,Css,Javascript and laravel",
     demo: "http://sports-daily.herokuapp.com/",
     github: "https://github.com/Adeku5080/sports-daily",
+    projectType: "backend",
     image:
       "https://res.cloudinary.com/motohbaba/image/upload/v1660778204/cwwy8e1vqmvl2d7rbfim.png",
   },
@@ -16,42 +17,61 @@ export const Work = [
     tags: ["Express", "react"],
     demo: "https://ali-chatbot.onrender.com/",
     github: "https://github.com/Adeku5080/chatbot_frontend",
+    projectType: "backend",
+
+
     image:
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1681942223/syle8gcv3jf2pb21hnzz.png",
   },
   {
     id: 3,
+    name: "Shop-now E-commerce App",
+    description: "An E-commerce App built with React,Redux and Firebase",
+    tags: ["Express", "react"],
+    demo: "https://shop-now-alpha.vercel.app/",
+    github: "https://github.com/Adeku5080/shop-now-ecommerce-app-with-react",
+    projectType: "frontend",
+
+    image:
+      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686351480/btoduehuca8x58qqz9tf.png",
+  },
+  {
+    id: 4,
     name: "Cryptoworld",
     description:
       "A web app that gives latest news,information of the most popular crypto's",
     tags: ["react", "ant-design", "redux", "redux-thunk"],
+    projectType: "frontend",
 
     demo: "https://cryptowurld.vercel.app/",
     github: "https://github.com/Adeku1997/crypto_world",
     image:
       "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659782971/gswdj70qwuce4y0yjjsn.png",
   },
-  {
-    id: 4,
-    name: "google-search clone",
-    description:
-      "A clone of google search engine built with react,redux and tailwindCss",
-    tags: ["react", "redux", "tailwindCss"],
+  // {
+  //   id: 4,
+  //   name: "google-search clone",
+  //   projectType: "frontend",
 
-    demo: "https://google-search-clone-with-react.vercel.app",
-    github: "https://github.com/Adeku1997/google-search-clone-with-react",
-    image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784373/fmgxnp3yxic3yro3aqvd.png",
-  },
-  {
-    id: 5,
-    name: "github-finder",
-    description: "An application that makes use of github user api.",
-    tags: ["react", "context-api", "styled-component"],
+  //   description:
+  //     "A clone of google search engine built with react,redux and tailwindCss",
+  //   tags: ["react", "redux", "tailwindCss"],
 
-    demo: "http://githubfinderadeku1997.netlify.app",
-    github: "https://github.com/Adeku1997/github-finder-app-with-react",
-    image:
-      "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784683/zmnjkschozvdgtwm6dfp.png",
-  },
+  //   demo: "https://google-search-clone-with-react.vercel.app",
+  //   github: "https://github.com/Adeku1997/google-search-clone-with-react",
+  //   image:
+  //     "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784373/fmgxnp3yxic3yro3aqvd.png",
+  // },
+  // {
+  //   id: 5,
+  //   name: "github-finder",
+  //   projectType:"frontend",
+  //   description: "An application that makes use of github user api.",
+  //   tags: ["react", "context-api", "styled-component"],
+
+  //   demo: "http://githubfinderadeku1997.netlify.app",
+  //   github: "https://github.com/Adeku1997/github-finder-app-with-react",
+  //   image:
+  //     "https://res.cloudinary.com/motohbaba/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1659784683/zmnjkschozvdgtwm6dfp.png",
+  // },
 ];

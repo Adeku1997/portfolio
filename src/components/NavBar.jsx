@@ -58,8 +58,8 @@ const NavBar = ({ click, setClick }) => {
           </a>
         </NavLinks>
         {isDesktop && (
-          <a href="https://docs.google.com/document/d/1z2dbkKyWQk9q_JjzYLlN1t5u7rxj6EWGgIcvH9b0DhA/">
-            <Button text="View Resume" link="" />
+          <a href="https://docs.google.com/document/d/1APOBecUNmnygz9h8Yx57kBaR_0nIKcCFdbD8kjFpGfQ/edit?usp=sharing">
+            <Button text="Resume" link="" />
           </a>
         )}
 
@@ -104,11 +104,11 @@ const NavBar = ({ click, setClick }) => {
             <MobileItem>Blog</MobileItem>
           </a>
           <a
-          href="https://docs.google.com/document/d/1RyhzaBfo4132yKV0-LTACSRJZ163vhTeimJKLTzNYd0/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1APOBecUNmnygz9h8Yx57kBaR_0nIKcCFdbD8kjFpGfQ/edit?usp=sharing"
             target="blank"
             className="nav-link"
           >
-            <MobileItem>View Resume</MobileItem>
+            <MobileItem>Resume</MobileItem>
           </a>
         </MobileLists>
       </MobileMenu>
