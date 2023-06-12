@@ -87,7 +87,7 @@ const Socials = styled.div`
 
 const Bottom = styled.div`
   width: 100%;
-  margin: 4rem auto;
+  margin: 1.5rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,6 +101,7 @@ const Bottom = styled.div`
   h3 {
     text-align:center;
     @media (max-width: 800px) {
+      margin-bottom:10px;
       font-size: 16px;
       text-align:center;
       
