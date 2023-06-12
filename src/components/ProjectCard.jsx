@@ -89,7 +89,7 @@ const Container = styled.div`
   // border-bottom: 1px solid #ffffff;
   height: 60vh;
   @media (max-width: 800px) {
-    
+    margin:2rem auto
   }
 `;
 
@@ -154,7 +154,7 @@ const Image = styled.div`
   width: 55%;
   height: 100%;
   // box-shadow: 3px 1px 1px 1px #ccc;
-  border:2px solid #999999;
+  border:1px solid #ffffff;
 
 
   @media (max-width: 800px) {
