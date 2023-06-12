@@ -116,6 +116,7 @@ const Details = styled.div`
     flex-direction: column;
     align-items: center;
     margin-top: 1.5rem;
+    justify-content:normal;
   }
 `;
 
@@ -130,6 +131,7 @@ const Description = styled.div`
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
+    // margin-bottom:20px;
   }
 `;
 
@@ -151,7 +153,9 @@ const Links = styled.div`
 const Image = styled.div`
   width: 55%;
   height: 100%;
-  box-shadow: 3px 1px 1px 1px #ccc;
+  // box-shadow: 3px 1px 1px 1px #ccc;
+  border:2px solid #999999;
+
 
   @media (max-width: 800px) {
     height: 0vh;
