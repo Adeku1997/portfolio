@@ -159,7 +159,7 @@ const Image = styled.div`
 
   @media (max-width: 800px) {
     // height: 1vh;
-    border:1px solid green;
+    border:1px solid grey;
 
   }
 
