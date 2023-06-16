@@ -89,7 +89,10 @@ const Container = styled.div`
   // border-bottom: 1px solid #ffffff;
   height: 60vh;
   @media (max-width: 800px) {
-    margin:2rem auto
+    margin:2rem auto;
+        margin-bottom:0.1rem !important;
+        height:53vh;
+
   }
 `;
 
@@ -101,7 +104,6 @@ const ProjectTitle = styled.div`
 
   @media (max-width: 800px) {
     font-size: 18px;
-    border: 1px solid b;
   }
 `;
 
@@ -131,7 +133,6 @@ const Description = styled.div`
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    // margin-bottom:20px;
   }
 `;
 
@@ -153,12 +154,13 @@ const Links = styled.div`
 const Image = styled.div`
   width: 55%;
   height: 100%;
-  // box-shadow: 3px 1px 1px 1px #ccc;
   border:1px solid #ffffff;
 
 
   @media (max-width: 800px) {
-    height: 0vh;
+    // height: 1vh;
+    border:1px solid green;
+
   }
 
   img {
@@ -170,7 +172,7 @@ const Image = styled.div`
 
   @media (max-width: 800px) {
     width: 90%;
-    height: 35vh;
+    height: 23vh;
   }
 `;
 
